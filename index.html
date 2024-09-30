@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apres </title>
+</head>
+<body>
+  <header>
+    <div>
+        <h1>
+            Apress
+        </h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Usecases</a></li>
+        <li><a href="#">Company</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Pricing</a></li>
+      </ul>
+    </nav>
+    <div class="auth-links">
+      <a href="#" class="sign-in">Sign in</a>
+      <a href="#" class="sign-up">Sign up</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="content">
+        <h1>Build models you can <span class="highlight">trust</span></h1>
+        <p>Continuously improve your model’s performance with feedback from across your organization.</p>
+        <div class="cta-buttons">
+          <a href="#" class="cta get-started">Get Started</a>
+          <a href="#" class="cta request-demo">Request Demo</a>
+        </div>
+      </div>
+    </div>
+</section>
+</main>
+<footer>
+    <div class="trusted-brands">
+        <div class="brand-logos">
+            <img src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/amazon-1024.png" alt="Amazon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Ericsson_logo.svg" alt="Ericsson">
+            <img src="https://banner2.cleanpng.com/20180803/aby/cebd2da4c7dbedfdaab539bca5cdea0b.webp" alt="Walmart">
+            <img src="https://1000logos.net/wp-content/uploads/2017/06/Symbol-Siemens-768x283.jpg" alt="Siemens">
+            <img src="https://static.vecteezy.com/system/resources/previews/020/336/038/non_2x/samsung-logo-samsung-icon-free-free-vector.jpg" alt="Samsung">
+          </div>
+  </footer>
+
+</body>
+</html>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      color: white;
+      background: linear-gradient(135deg, #090a1a, #181e39);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      
+    }
+
+    header {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav {
+      flex-grow: 1;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin-left: 200px;
+      gap: 70px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .auth-links {
+      display: flex 1;
+      gap: 15px;
+    }
+
+    .auth-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .auth-links .sign-up {
+      background-color: #5a54ef;
+      padding: 8px 16px;
+      border-radius: 5px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .hero .content h1 {
+      font-size: 3rem;
+    }
+
+    .hero .content h1 .highlight {
+      color: #5a54ef;
+    }
+
+    .hero p {
+      margin-top: 15px;
+      font-size: 1.2rem;
+    }
+
+    .cta-buttons {
+      margin-top: 25px;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .cta {
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .cta.get-started {
+      background-color: #5a54ef;
+    }
+
+    .cta.request-demo {
+      border: 2px solid #5a54ef;
+    }
+
+    .trusted-brands {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    .trusted-brands p {
+      margin-bottom: 15px;
+      font-size: 1.1rem;
+    }
+
+    .brand-logos {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 20px;
+    }
+
+    .brand-logos img {
+      width:100px;
+      height: 40px;
+    }
+
+    footer {
+      justify-content: center;
+      background-color: #ffffff;
+
+      
+    }
+  </style>
